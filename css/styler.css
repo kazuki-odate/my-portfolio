@@ -391,6 +391,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	clear: both;
 	float: left;
 	padding-top: 138px;
+	margin-top: 138px;
 	background-color: #ddd;
 }
 .wrapper-about{
@@ -743,7 +744,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	text-decoration: none;
 	color: #000;
 }
-.wrapper_portfolio .portfolio_filter ul li a.current{color: #ff214f;}
+.wrapper_portfolio .portfolio_filter ul li a.current{color: blue;}
 .wrapper_portfolio .portfolio_list{
 	width: 100%;
 	height: auto;
