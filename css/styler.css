@@ -299,7 +299,7 @@ body.dark ::placeholder {
 .about-inner .leftbox .about-image-wrapper .about-overlay{
 	position: absolute;
 	z-index: 2;
-	top: 10px;
+	top: 20px;
 	left: 10px;
 	height: 390px;
 }
@@ -1411,8 +1411,9 @@ body.dark ::placeholder {
 	color: rgb(60,90,153,);
 	margin:.7rem;
 }
-.fa-twitter-square{
-	color:rgb(29,161,242) ;
+
+.fa-linkedin{
+	/* color:rgb(29,161,242) ; */
 	margin:.7rem ;
 }
 
@@ -1908,7 +1909,7 @@ body.dark .arlo_tm_footer{background-color: #101010;}
 }
 
 .my-type{
-	font-size: 5rem;
+	font-size: 3rem;
 }
 
 .navbar{
