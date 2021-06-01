@@ -5,29 +5,6 @@
 /*	This file is made for CURRENT TEMPLATE
 
 
-01) ARLO BASE
-02) ARLO SIDEBAR
-03) ARLO MOBILE MENU
-04) ARLO RIGHTPART
-05) ARLO HERO
-06) ARLO ABOUT
-07) ARLO SERVICES
-08) ARLO PORTFOLIO
-09) ARLO TESTIMONIALS
-10) ARLO TIMELINE
-11) ARLO PRICING
-12) ARLO NEWS
-13) ARLO CONTACT
-14) ARLO FOOTER
-15) ARLO TOTOP
-16) ARLO RTL
-17) ARLO DARK
-18) ARLO PARTICLE DEMO
-19) ARLO GLITCH DEMO
-20) ARLO WATER DEMO
-21) ARLO MEDIA QUERIES (FOR SMALL DEVIVES)
-
-
 /*---------------------------------------------------*/
 /*	01) ARLO BASE
 /*---------------------------------------------------*/
@@ -56,47 +33,47 @@ img.svg{
 	width: 15px;
 	height: 15px;
 }
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+::-webkit-input-placeholder { 
     color: #6f6f6f;
 }
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+:-moz-placeholder { 
    color: #6f6f6f;
    opacity:  1;
 }
-::-moz-placeholder { /* Mozilla Firefox 19+ */
+::-moz-placeholder {
    color: #6f6f6f;
    opacity:  1;
 }
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
+:-ms-input-placeholder {
    color: #6f6f6f;
 }
-::-ms-input-placeholder { /* Microsoft Edge */
-   color: #6f6f6f;
-}
-
-::placeholder { /* Most modern browsers support this now. */
+::-ms-input-placeholder {
    color: #6f6f6f;
 }
 
-body.dark ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+::placeholder { 
+   color: #6f6f6f;
+}
+
+body.dark ::-webkit-input-placeholder { 
     color: #fff;
 }
-body.dark :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+body.dark :-moz-placeholder {
    color: #fff;
    opacity:  1;
 }
-body.dark ::-moz-placeholder { /* Mozilla Firefox 19+ */
+body.dark ::-moz-placeholder { 
    color: #fff;
    opacity:  1;
 }
-body.dark :-ms-input-placeholder { /* Internet Explorer 10-11 */
+body.dark :-ms-input-placeholder { 
    color: #fff;
 }
-body.dark ::-ms-input-placeholder { /* Microsoft Edge */
+body.dark ::-ms-input-placeholder {
    color: #fff;
 }
 
-body.dark ::placeholder { /* Most modern browsers support this now. */
+body.dark ::placeholder { 
    color: #fff;
 }
 
@@ -107,112 +84,8 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	float: left;
 }
 
-
 /*---------------------------------------------------*/
-/*	02) ARLO SIDEBAR
-/*---------------------------------------------------*/
-
-
-
-/*---------------------------------------------------*/
-/*	03) ARLO MOBILE MENU
-/*---------------------------------------------------*/
-
-/* .arlo_tm_topbar{
-	width: 100%;
-	height: auto;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	display: none;
-	z-index: 10;
-}
-.arlo_tm_topbar .topbar_inner{
-	width: 100%;
-	height: auto;
-	float: left;
-	clear: both;
-	background-color: #fff;
-	padding: 20px 0px;
-	border-bottom: 1px solid rgba(0,0,0,.2);
-}
-.arlo_tm_topbar .topbar_in{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-.arlo_tm_topbar .topbar_inner .trigger a{
-	text-decoration: none;
-	color: #000;
-}
-.arlo_tm_topbar .topbar_inner .trigger a .close{display: none;}
-.arlo_tm_topbar .topbar_inner .trigger a .close.opened{display: block;}
-.arlo_tm_topbar .topbar_inner .trigger a .menu.closed{display: none;;}
-.arlo_tm_topbar .dropdown{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	background-color: #fff;
-	border-bottom: 1px solid rgba(0,0,0,.2);
-	display: none;
-}
-.arlo_tm_topbar .dropdown .dropdown_inner{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	padding: 25px 0px;
-}
-.arlo_tm_topbar .dropdown .dropdown_inner ul{
-	margin: 0px;
-	list-style-type: none;
-}
-.arlo_tm_topbar .dropdown .dropdown_inner ul li{
-	margin: 0px;
-	float: left;
-	width: 100%;
-}
-.arlo_tm_topbar .dropdown .dropdown_inner ul li a{
-	text-decoration: none;
-	color: #000;
-	display: inline-block;
-	padding: 4px 0px;
-	font-family: "Montserrat";
-	font-weight: 500;
-} */
-
-/*---------------------------------------------------*/
-/*	04) ARLO RIGHTPART
-/*---------------------------------------------------*/
-
-/* .arlo_tm_rightpart{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-	padding-left: 400px;
-	
-	-webkit-transition: all .3s ease;
-	   -moz-transition: all .3s ease;
-	    -ms-transition: all .3s ease;
-	     -o-transition: all .3s ease;
-	        transition: all .3s ease;
-} */
-/* .arlo_tm_rightpart.opened{padding-left: 0px;}
-.arlo_tm_rightpart .rightpart_inner{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-} */
-
-/*---------------------------------------------------*/
-/*	05) ARLO HERO 
+/*	01) HERO 
 /*---------------------------------------------------*/
 
 .home-inner{
@@ -223,6 +96,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	overflow: hidden;
 	height:800px;
 }
+
 .home-wrap .hero-image{
 	/* position: relative; */
 	/* top: 0px;
@@ -262,7 +136,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	left: 50%;
 	transform: translate(-50%,-50%);
 	padding: 0px 20px;
-	z-index: 3;
+	z-index: 10;
     filter: drop-shadow(0px 0px 10px rgba(0,0,0,.8));
 }
 
@@ -275,7 +149,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	left: 50%;
 	transform: translate(-50%,-50%);
 	padding: 0px 20px;
-	z-index: 3;
+	z-index: 10;
 }
 /* .arlo_tm_hero_header .hero_content .image_wrap{
 	width: 200px;
@@ -315,12 +189,12 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	position: absolute;
 	top: 80%;
 	left: 50%;
+	text-shadow: 0 2px 5px rgb(255, 255, 255);
 	transform: translate(-50%,-50%);
 	z-index: 10;
-	
 }
 .offset .hero-content .hero-text h3{
-	color: #fff;
+	color: #730202;
 	font-weight: 700;
 	
 }
@@ -332,8 +206,9 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	font-weight: 700;
 } */
 .offset .hero-content .hero-text p{
-	color: #fff;
-	font-weight: 500;
+	color: #730202;
+	font-size: 24px;
+	font-weight: 600;
 }
 
 /* .arlo_tm_hero_header .hero_content .name_holder h3 span{color:blue;}
@@ -354,7 +229,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite; } */
 
-/* @-webkit-keyframes bounce {
+@-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     -webkit-transform: translateY(0);
     transform: translateY(0); }
@@ -379,10 +254,10 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	text-decoration: none;
 	color: #fff;
 	font-size: 30px;
-} */
+}
 
 /*---------------------------------------------------*/
-/*	06) ARLO ABOUT
+/*	02) ABOUT
 /*---------------------------------------------------*/
 
 .wrapper-about-all{
@@ -390,8 +265,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	height: auto;
 	clear: both;
 	float: left;
-	padding-top: 138px;
-	margin-top: 138px;
+	padding-top: 140px;
 	background-color: #ddd;
 }
 .wrapper-about{
@@ -408,7 +282,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	clear: both;
 	float: left;
 	display: flex;
-	padding-top: 100px;
+	padding-top: 64px;
 }
 
 .about-inner .leftbox{
@@ -455,12 +329,14 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	height: auto;
 	padding-left: 70px;
 }
-.rightbox .about-title{margin-bottom: 30px;}
-.rightbox .about-title h3{font-size: 20px;}
-.rightbox .about-title h3{color: blue;}
+.rightbox .about-title h3{
+	margin-bottom: 30px;
+	font-size: 20px;
+	color: #730202;
+}
 .rightbox .text{margin-bottom: 23px;}
 .rightbox .text span{
-	color: #ff214f;
+	color: #730202;
 	font-style: italic;
 }
 .about-short-contact-wrap{
@@ -483,8 +359,8 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 }
 .about-short-contact-wrap ul li:nth-of-type(2n){clear: right;}
 .about-short-contact-wrap ul li label{
-	font-weight: 500;
-	color: #000;
+	font-weight: 600;
+	color: #730202;
 	min-width: 85px;
 	display: inline-block;
 }
@@ -500,6 +376,12 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
+
+.rightbox .text p{
+	font-size: 14px;
+	color: #730202;
+	font-weight: 600;
+}
 .about-short-contact-wrap ul li a:hover{border-bottom-color: #000;}
 .about-short-contact-wrap ul li .svg{
 	position: absolute;
@@ -507,67 +389,8 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	top: 6px;
 	width: 17px;
 	height: 17px;
-	color: blue;
+	color:#730202;
 }
-/* .wrapper-about .buttons{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-}
-.wrapper-about .buttons ul{
-	margin: 0px;
-	list-style-type: none;
-}
-.wrapper-about .buttons ul li{
-	margin: 0px 15px 20px 0px;
-	display: inline-block;
-}
-.wrapper-about .buttons ul li a{
-	text-decoration: none;
-	color: #fff;
-	background-color: #ff214f;
-	display: inline-block;
-	padding: 10px 45px;
-	font-family: "Montserrat";
-	position: relative;
-	overflow: hidden;
-}
-.wrapper-about .buttons ul li a:before{
-	position: absolute;
-    content: "";
-    top: 0px;
-    height: 100%;
-    left: -25%;
-    width: 0%;
-    background-color: #000;
-    transform: skew(50deg);
-    transition-duration: .6s;
-    z-index: 1;
-}
-.wrapper-about .buttons ul li a:hover:before{width: 150%;}
-.wrapper-about .buttons ul li span{
-	z-index: 2;
-	position: relative;
-} */
-/* .title{
-	width: 100%;
-	height: auto;
-	clear: both;
-	float: left;
-}
-.title h3{
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 35px;
-}
-.title span{
-	display: inline-block;
-	font-size: 14px;
-	text-transform: uppercase;
-	color: #ff214f;
-	font-weight: 500;
-} */
 
 /*---------------------------------------------------*/
 /*	07) ARLO SERVICES
@@ -579,7 +402,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	clear: both;
 	float: left;
 	background-color: #f9f9f9;
-	padding: 140px 0px 100px 0px;
+	padding: 80px 0px 0px 0px;
 }
 .wrapper-skills .service_inner{
 	width: 100%;
@@ -626,6 +449,11 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	font-size: 20px;
 	margin-bottom: 20px;
 }
+
+.wrapper-skills .service_inner p{
+	font-size: 10px;
+}
+
 .arlo_tm_progress_wrap{
 	width: 100%;
 	height: auto;
@@ -640,21 +468,35 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	float: left;
 	display: flex;
 }
+
+.arlo_tm_progress_wrap .progress_wrap_inner .right{
+	margin-bottom: 24px;
+}
+
 .arlo_tm_progress_wrap .progress_wrap_inner .left{
 	width: 50%;
-	padding-right: 50px;
+	padding-left: 50px;
 }
 .arlo_tm_progress_wrap .progress_wrap_inner .left .main_title{
 	width: 100%;
 	float: left;
 	margin-bottom: 29px;
 }
-.arlo_tm_progress_wrap .progress_wrap_inner .left .main_title h3{font-size: 20px;}
-.arlo_tm_progress_wrap .progress_wrap_inner .left .main_title h3 span{color: orange;}
+
+.arlo_tm_progress_wrap .progress_wrap_inner .right .main_title{
+	margin-bottom: 29px;
+}
+
+.arlo_tm_progress_wrap .progress_wrap_inner .main_title h3{
+	font-size: 20px;
+}
+.arlo_tm_progress_wrap .progress_wrap_inner .left .main_title h3 span{
+	color: orange;
+}
 .arlo_tm_progress_wrap .right{
 	width: 50%;
 	height: auto;
-	padding-left: 30px;
+	padding-right: 30px;
 }
 .arlo_progress{
 	width: 100%;
@@ -706,7 +548,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 /*	08) ARLO PORTFOLIO
 /*---------------------------------------------------*/
 
-.wrapper_portfolio{
+.arlo_tm_portfolio{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -716,59 +558,59 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	background-color:#fff;
 	padding-bottom: 100px;
 }
-.wrapper_portfolio .portfolio_inner{
+.arlo_tm_portfolio .portfolio_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	padding-top: 80px;
 }
-.wrapper_portfolio .portfolio_filter{
+.arlo_tm_portfolio .portfolio_filter{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	margin-bottom: 20px;
 }
-.wrapper_portfolio .portfolio_filter ul{
+.arlo_tm_portfolio .portfolio_filter ul{
 	margin: 0px;
 	list-style-type: none;
 	font-size: large;
 }
-.wrapper_portfolio .portfolio_filter ul li{
+.arlo_tm_portfolio .portfolio_filter ul li{
 	margin: 0px 30px 20px 0px;
 	display: inline-block;
 }
-.wrapper_portfolio .portfolio_filter ul li:last-child{margin-right: 0px;}
-.wrapper_portfolio .portfolio_filter ul li a{
+.arlo_tm_portfolio .portfolio_filter ul li:last-child{margin-right: 0px;}
+.arlo_tm_portfolio .portfolio_filter ul li a{
 	text-decoration: none;
 	color: #000;
 }
-.wrapper_portfolio .portfolio_filter ul li a.current{color: blue;}
-.wrapper_portfolio .portfolio_list{
+.arlo_tm_portfolio .portfolio_filter ul li a.current{color: #730202;}
+.arlo_tm_portfolio .portfolio_list{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.wrapper_portfolio .portfolio_list ul{
+.arlo_tm_portfolio .portfolio_list ul{
 	margin: 0px 0px 0px -50px;
 	list-style-type: none;
 }
-.wrapper_portfolio .portfolio_list ul li{
+.arlo_tm_portfolio .portfolio_list ul li{
 	margin: 0px 0px 50px 0px;
 	float: left;
 	width: 33.3333%;
 	padding-left: 50px;
 }
-.wrapper_portfolio .portfolio_list ul li .inner{
+.arlo_tm_portfolio .portfolio_list ul li .inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	position: relative;
 }
-.wrapper_portfolio .portfolio_list ul li .inner .main-image{
+.arlo_tm_portfolio .portfolio_list ul li .inner .main-image{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -778,7 +620,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	background-position: center;
 	background-size: cover;
 }
-.wrapper_portfolio .portfolio_list ul li .inner .main-image:hover{
+.arlo_tm_portfolio .portfolio_list ul li .inner .main-image:hover{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -790,12 +632,12 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	transform: scale(1.2);
 	transition-duration: 0.5s;
 }
-.wrapper_portfolio_titles {
+.arlo_tm_portfolio_titles {
 	white-space: nowrap;
 	background: #ffffff;
 	font-size: 20px;
 	padding: 5px 15px;
-	font-family: "Montserrat";
+	font-family: "'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif";
 	font-weight: 500;
 	color: #000;
 	position: fixed;
@@ -803,11 +645,11 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	opacity: 0;
 	visibility: hidden;
 }
-.wrapper_portfolio_titles.visible {
+.arlo_tm_portfolio_titles.visible {
 	opacity: 1;
 	visibility: visible;
 }
-.wrapper_portfolio_titles .work__cat {
+.arlo_tm_portfolio_titles .work__cat {
 	position: absolute;
 	background: #ffffff;
 	top: 100%;
@@ -937,20 +779,9 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	box-sizing: border-box;
 }
 .hard-work{
-	/* width: 100%;
-	position: relative; */
-	/* clear: both; */
-	/* overflow: hidden;
-	height:300px; */
-	/* float: left; */
-	/* height: 300px; */
-	/* box-sizing: border-box; */
-	height: 676.5px;
 	margin-bottom: 100px;
 	padding-top: 140px;
 	text-align: left;
-	/* padding-left: 40px;
-	padding-right: 40px; */
 }
 .hard-work .fixed-inner .performance-image{
 		position: absolute; 
@@ -971,13 +802,30 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 }
 
 .title h3{
-	color: #000;
+	color: #730202;
 	text-transform: uppercase;
 	font-size: 35px;
 	font-weight: 700;
 }
 .title span{
-	color: blue;
+	color: #DE5021;
+}
+.hard-work .title h3{
+	color: #730202;
+	text-transform: uppercase;
+	font-size: 35px;
+	font-weight: 700;
+	text-shadow:  2px  2px 10px #fff ,
+               -2px  2px 10px #fff ,
+                2px -2px 10px #fff ,
+               -2px -2px 10px #fff;
+}
+.hard-work .title span{
+	color: #DE5021;
+	text-shadow:  2px  2px 10px #fff ,
+               -2px  2px 10px #fff ,
+                2px -2px 10px #fff ,
+               -2px -2px 10px #fff;
 }
 
 .content-inner h4 {
@@ -985,23 +833,31 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	font-size: 35px;
 	font-weight: 700;
 	margin-bottom: 50px;
+	text-shadow:  2px  2px 10px #777 ,
+               -2px  2px 10px #777 ,
+                2px -2px 10px #777 ,
+               -2px -2px 10px #777;
 }
 .content-inner p{
 	color:white;
 	font-size: 15px;
 	font-weight: 400;
+	text-shadow:  2px  2px 10px #777 ,
+               -2px  2px 10px #777 ,
+                2px -2px 10px #777 ,
+               -2px -2px 10px #777;
 }
-.content-inner .icon{
+/* .content-inner .icon{
 	float: left;
-	/* width: 50px;
+	width: 50px;
 	height: 50px;
-	margin-right: 30px; */
-}
-.content-inner .svg{
+	margin-right: 30px;
+} */
+/* .content-inner .svg{
 	width: 30px;
 	height: 30px;
 	margin-right: 30px;
-}
+} */
 /* .arlo_tm_testimonial{
 	width: 100%;
 	height: auto;
@@ -1267,7 +1123,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	display: inline-block;
 	background-color: #ff214f;
 	padding: 7px 35px;
-	font-family: "Montserrat";
+	font-family: "'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif";
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -1537,7 +1393,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	clear: both;
 	float: left;
 	/* padding: 42px 0px; */
-	position: relative;
+	background-color: #fff;
 }
 
 .footer-cover{
@@ -1785,7 +1641,7 @@ body.rtl .arlo_tm_progress_wrap .right{padding-left: 0px;padding-right: 30px;}
 body.rtl .arlo_tm_progress_wrap .progress_wrap_inner .left{padding-left: 50px;padding-right: 0px;}
 body.rtl .progress_inner span.number{float: left;}
 body.rtl .progress_inner > span{text-align: right;}
-body.rtl .wrapper_portfolio .portfolio_filter ul li{float: right;margin-right: 0px;margin-left: 30px;}
+body.rtl .arlo_tm_portfolio .portfolio_filter ul li{float: right;margin-right: 0px;margin-left: 30px;}
 body.rtl .arlo_tm_testimonial .testimonial_content .content_inner .icon{left: 0px;right: 51px;}
 body.rtl .arlo_tm_testimonial .testimonial_content .content_inner{padding: 60px 155px 64px 60px;}
 body.rtl .arlo_tm_testimonial .testimonial_content .author .job{padding-left: 0px;padding-right: 25px;}
@@ -1831,8 +1687,8 @@ body.dark .wrapper-about .buttons ul li a:before{background-color: #fff;}
 body.dark .wrapper-skills{background-color: #191919;}
 body.dark .wrapper-skills .service_inner ul li .inner{background-color: #101010;box-shadow: 0px 0px 20px rgba(255,255,255,0);}
 body.dark .progress_inner .background{background-color: rgba(255,255,255,.2);}
-body.dark .wrapper_portfolio .portfolio_filter ul li a{color: #fff;}
-body.dark .wrapper_portfolio .portfolio_filter ul li a.current{color: #ff214f;}
+body.dark .arlo_tm_portfolio .portfolio_filter ul li a{color: #fff;}
+body.dark .arlo_tm_portfolio .portfolio_filter ul li a.current{color: #ff214f;}
 body.dark .arlo_tm_timeline .timeline_inner .left ul:before{background-color: rgba(255,255,255,.2);}
 body.dark .arlo_tm_timeline .timeline_inner .right ul:before{background-color: rgba(255,255,255,.2);}
 body.dark .arlo_tm_testimonial .testimonial_bg .overlay{background-color: rgba(0,0,0,.75);}
@@ -1944,7 +1800,7 @@ body.dark .arlo_tm_footer{background-color: #101010;}
 	color: #fff;
 	font-size: 25px;
 	margin-bottom: 30px;
-	font-family: "Montserrat";
+	font-family: "'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif";
 }
 .arlo_tm_intro_mainpart{
 	width: 100%;
@@ -2026,7 +1882,7 @@ body.dark .arlo_tm_footer{background-color: #101010;}
 	background-color: #ff214f;
 	color: #fff;
 	font-weight: 600;
-	font-family: "Montserrat";
+	font-family: "'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif";
 	text-transform: uppercase;
 	padding: 5px 25px;
 }
@@ -2057,6 +1913,7 @@ body.dark .arlo_tm_footer{background-color: #101010;}
 
 .navbar{
 	font-weight: 600;
+	background-color: #730202;
 }
 .navbar-dark .navbar-nav .nav-link{
 	color: white;
@@ -2064,7 +1921,7 @@ body.dark .arlo_tm_footer{background-color: #101010;}
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover{
-	color: #3A00FF;
+	color: #DE5021;
 }
 
 .fixed-background{
@@ -2120,13 +1977,11 @@ body.dark .arlo_tm_footer{background-color: #101010;}
 	font-weight: 900;
 	  content: '\f103';
 	  font-size: 30px;
-	  /* width: 25px;
-	  height: 25px; */
 	  position: absolute;
 	  top: -5px;
 	  left: 13.5px;
-	  /* margin: auto; */
 	  text-align: center;
+	  color: #730202;
 }
 /*---------------------------------------------------*/
 /*	21) ARLO MEDIA QUERIES (FOR SMALL DEVIVES)
@@ -2150,7 +2005,7 @@ body.dark .arlo_tm_footer{background-color: #101010;}
 @media (max-width: 1200px) {
 	.wrapper-skills .service_inner ul li{width: 50%;}
 	.arlo_tm_pricing .pricing_inner > ul > li{width: 50%;}
-	.wrapper_portfolio .portfolio_list ul li{width: 50%;}
+	.arlo_tm_portfolio .portfolio_list ul li{width: 50%;}
 	.arlo_tm_news .news_inner ul li{width: 50%;}
 }
 @media (max-width: 1040px) {
@@ -2167,7 +2022,7 @@ body.dark .arlo_tm_footer{background-color: #101010;}
 	body.rtl .arlo_tm_progress_wrap .progress_wrap_inner .left{padding-left: 0px;}
 	body.rtl .arlo_tm_progress_wrap .right{padding-right: 0px;}
 	.arlo_tm_preloader{display: none;}
-	.wrapper_portfolio_titles{display: none;}
+	.arlo_tm_portfolio_titles{display: none;}
 	.arlo_tm_intro_mainpart .main_list ul li{width: 50%;}
 }
 @media (max-width: 768px) {
@@ -2177,8 +2032,8 @@ body.dark .arlo_tm_footer{background-color: #101010;}
 	.wrapper-about .rightbox .about-title h3{font-size: 20px;}
 	.wrapper-skills .service_inner ul li{width: 100%;padding-left: 0px;}
 	.wrapper-skills .service_inner ul{margin: 0px;}
-	.wrapper_portfolio .portfolio_list ul li{width: 100%;padding-left: 0px;}
-	.wrapper_portfolio .portfolio_list ul{margin: 0px;}
+	.arlo_tm_portfolio .portfolio_list ul li{width: 100%;padding-left: 0px;}
+	.arlo_tm_portfolio .portfolio_list ul{margin: 0px;}
 	.arlo_tm_testimonial .testimonial_content .content_inner .icon{position: relative;top: 0px;left: 0px;margin-bottom: 30px;}
 	.arlo_tm_testimonial .testimonial_content .content_inner{padding: 60px 40px 64px 40px;}
 	.arlo_tm_timeline .timeline_inner{flex-direction: column;}

@@ -59,8 +59,8 @@ a:hover{text-decoration:none;}
 
 h1, h2, h3, h4, h5, h6{
 	font-weight:500;
-	line-height: 1.4;
-	font-family: "Montserrat";
+	line-height: 1;
+	font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 	color: #000;
 }
 h1 { font-size: 45px; }
