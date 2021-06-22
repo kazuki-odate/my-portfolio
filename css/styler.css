@@ -87,12 +87,35 @@ img.svg{
 .offset .hero-content .hero-text h3{
 	color: #730202;
 	font-weight: 700;
-	
+	font-size: 46px;
 }
 .offset .hero-content .hero-text p{
 	color: #730202;
-	font-size: 24px;
+	font-size: 36px;
 	font-weight: 600;
+}
+
+#home .about-inner span{
+	color: #000;
+}
+
+@media (max-width: 768px){
+
+	.home-inner{
+		height: 550px;
+	}
+
+	.offset .hero-content .hero-text h3{
+		margin-top: 70px;
+		font-size: 18px;
+	}
+	.offset .hero-content .hero-text p{
+		font-size: 17px;
+	}
+
+	.page-slide a::before{
+		display:none;
+	}
 }
 
 /*---------------------------------------------------*/
@@ -212,6 +235,8 @@ img.svg{
 	color:#730202;
 }
 
+
+
 /*---------------------------------------------------*/
 /*	03)  SERVICES
 /*---------------------------------------------------*/
@@ -271,7 +296,7 @@ img.svg{
 }
 
 .wrapper-skills .service_inner p{
-	font-size: 10px;
+	font-size: 12px;
 }
 
 .arlo_tm_progress_wrap{
@@ -491,8 +516,8 @@ img.svg{
 	box-sizing: border-box;
 }
 .hard-work{
-	margin-bottom: 100px;
-	padding-top: 84px;
+	margin-bottom: 124px;
+	padding-top: 92px;
 	text-align: left;
 }
 .hard-work .fixed-inner .performance-image{
@@ -559,6 +584,11 @@ img.svg{
                 2px -2px 10px #777 ,
                -2px -2px 10px #777;
 }
+
+#experience .timeline_inner .inner p{
+	color: #000;
+}
+
 /*---------------------------------------------------*/
 /*	06) TIMELINE
 /*---------------------------------------------------*/
